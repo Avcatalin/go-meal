@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #f5f5f5;
+  --dark-color: #2e2e2e;
+  --orange-color: #f8b602;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--dark-color);
+}
+/* logo CSS */
+.logo {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+.logo .dot {
+  color: var(--orange-color);
+}
